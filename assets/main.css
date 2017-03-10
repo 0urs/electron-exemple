@@ -1,0 +1,18 @@
+fieldset {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px; }
+fieldset {
+  padding: 39px 32px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px; }
+
+legend {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0 1em;
+  margin-left: -1em;
+  top: 2px;
+  position: relative;
+  line-height: 0; }

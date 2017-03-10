@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="utf-8">
+
+	<link rel="stylesheet" href="assets/main.css">
+    
+	<title>Open&load</title>
+</head>
+<body>
+
+	<div class="content">
+
+		<button id="openfile">Ouvrir</button>
+		<button id="cleartext" onclick="document.getElementById('textbox').innerHTML=''">Effacer le texte</button>
+		<button id="close" onclick="javascript:window.close();">Fermer l'application</button>
+
+		<fieldset style="margin-top: 20px;">
+
+			<legend>fichier ouvert</legend>
+
+			<div id="textbox">
+				
+			</div>			
+		</fieldset>
+
+
+	</div>
+
+	<script type="text/javascript">
+		require('./renderer-process/open-file.js')
+	</script
+</body>
+
+</html>
